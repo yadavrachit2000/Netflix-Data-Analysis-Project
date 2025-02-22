@@ -31,9 +31,6 @@ This project provides insights into Netflix's content library using SQL queries 
    - Open `analysis_queries.sql` in pgAdmin 4's query tool.
    - Execute the queries to generate the analysis results.
 
-4. **View the Results**
-
-   - Results will be stored in the `Netflix Data Analysis` pdf file.
 
 ---
 
@@ -81,7 +78,6 @@ description: Brief description.
 - ⚠️ **Content Categorization**: Classify content based on keywords like 'kill' and 'violence.'
 
 ---
-
 ## 📈 Sample SQL Queries
 
 ```sql
@@ -91,6 +87,7 @@ SELECT
     COUNT(*)
 FROM netflix
 GROUP BY 1;
+
 ---
 
 ## 📝 License
