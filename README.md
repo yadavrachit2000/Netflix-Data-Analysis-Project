@@ -37,6 +37,32 @@ This project provides insights into Netflix's content library using SQL queries 
 
 ---
 
+## 📂 Dataset
+
+The dataset includes the following key columns:
+
+show_id: Unique identifier for each show.
+
+type: Movie or TV Show.
+
+title: Title of the show.
+
+director: Director's name.
+
+cast: Actors in the show.
+
+country: Country of origin.
+
+release_year: Year the content was released.
+
+rating: Content rating (e.g., TV-MA, PG).
+
+duration: Length of the content.
+
+listed_in: Genre(s) of the content.
+
+description: Brief description.
+
 ## 🚀 Features
 
 - 📊 **Content Distribution**: Analyze the number of movies vs. TV shows.
